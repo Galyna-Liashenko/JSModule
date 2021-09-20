@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+   
+    
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="cellWrapper">
+            <div class="timeCell">
+                <div class="time"><span>8:00</span></div>
+                <div class="events"></div>
+            </div>
+            <div class="timeCell">
+                <div class="time">8:30</div>
+                <div class="events"></div>
+            </div>
+            <div class="timeCell">
+                <div class="time">9:00</div>
+                <div class="events"></div>
+            </div>
+            <div class="timeCell">
+                <div class="time">9:30</div>
+                <div class="events"></div>
+            </div>
+            <div class="timeCell">
+                <div class="time">10:00</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">10:30</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">11:00</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">11:30</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">12:00</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">12:30</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">13:00</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">13:30</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">14:00</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">14:30</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">15:00</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">15:30</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">16:00</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">16:30</div>
+            </div>
+            <div class="timeCell">
+                <div class="time">17:00</div>
+            </div>
+        </div>
+
+        <div class="formWrapper">
+            <form id="myForm">
+                <h2>Add event</h2>
+                <label for="start">Start event</label>
+                <input type="time" id="start" class="inputStart" placeholder="start">
+                <label for="duration">End event</label>
+                <input type="time" id="duration" class="inputDuration" placeholder="duration">
+                <label for="text">Event title</title></label>
+                <input type="text" id="text" class="inputText" placeholder="Event title">
+                <button type="submit" class ="button">Add</button>
+
+               
+            </form>
+
+        </div>
+    </div>
+    <div>
+        <form id="changeForm">
+            <span class="changeClose"></span>
+            <h2>Change event</h2>
+           
+            <label for="changestart">Start event (from 0 to 540)</label>
+            <input type="text" id="changestart" class="inputStart" placeholder="start">
+            <label for="changeduration">End duration</label>
+            <input type="text" id="changeduration" class="inputDuration" placeholder="duration">
+            <label for="changetext">Event title</title></label>
+            <input type="text" id="changetext" class="inputText" placeholder="Event title">
+
+            
+
+            <h2>Change color</h2>
+            <label for="color">color rgba(0, 242, 255, .5)</title></label>
+            <input type="text" id="color" class="inputColor" placeholder="color">
+        
+            <button type="submit" id ="buttonChange">Change</button>
+        </form>
+    </div>
+
+  <script src="js/script.js"></script>
+
+
+</body>
+</html>
